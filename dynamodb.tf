@@ -15,4 +15,8 @@ resource "aws_dynamodb_table" "item-data-table" {
         name = var.key_setup.rangekey.keyname
         type = var.key_setup.rangekey.keydata
     }
+    
+    server_side_encryption {
+        enabled = false
+    }
 }
