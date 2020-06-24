@@ -17,7 +17,7 @@ resource "aws_dynamodb_table" "item-data-table" {
     }
     
     server_side_encryption {
-        enabled = false
+        enabled = var.encryption
     }
     tags = var.tags
 }

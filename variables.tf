@@ -1,4 +1,5 @@
 variable "identifier" { }
+variable "encryption" { }
 variable "key_setup" {
     type = map(object({
         keyname = string
