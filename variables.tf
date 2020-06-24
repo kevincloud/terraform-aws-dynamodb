@@ -15,3 +15,6 @@ variable "key_setup" {
         }
     }
 }
+variable "tags { 
+    type = map(string)
+}
