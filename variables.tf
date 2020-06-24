@@ -15,6 +15,6 @@ variable "key_setup" {
         }
     }
 }
-variable "tags { 
+variable "tags" { 
     type = map(string)
 }
